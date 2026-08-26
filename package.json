@@ -1,0 +1,19 @@
+{
+  "name": "semantic-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@semantic-release/changelog": "^7.0.0",
+    "jest": "^30.4.2",
+    "semantic-release": "^25.0.9"
+  }
+}
