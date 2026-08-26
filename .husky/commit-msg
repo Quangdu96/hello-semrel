@@ -1,0 +1,4 @@
+# For Windows
+npx --no -- commitlint --edit $1
+# For Linux/macOS
+# npx --no -- commitlint --edit \$1
