@@ -25,7 +25,7 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Run lint, tests, and other verification
-        run: npm test
+        run: npm run lint && npm test
 
   release:
     name: Release
@@ -48,6 +48,10 @@ jobs:
         run: npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
+      - name: Build package
+        run: npm run build
+      - name: Zip built assets
+        run: zip -r hello-semrel.zip out/
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
