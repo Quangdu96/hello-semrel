@@ -1,0 +1,21 @@
+{
+  "name": "hello-semrel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --passWithNoTests",
+    "release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/git": "^11.0.1",
+    "semantic-release": "^25.0.9",
+    "vitest": "^4.1.11"
+  }
+}
