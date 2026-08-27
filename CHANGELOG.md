@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/Quangdu96/hello-semrel/compare/v0.1.0...v0.2.0) (2026-08-27)
+
+
+### Features
+
+* **Home:** add testing setup with Vitest and Testing Library ([454bc8c](https://github.com/Quangdu96/hello-semrel/commit/454bc8cc0b1439a1cb353e4e26342b2c3ebbde75))
+
 # [0.1.0](https://github.com/Quangdu96/hello-semrel/compare/v0.0.0...v0.1.0) (2026-08-27)
 
 
